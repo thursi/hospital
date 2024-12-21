@@ -1,0 +1,23 @@
+/* Styles for the scheduler container */
+.scheduler-container {
+    position: relative;
+    margin-top: 16px;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    z-index: 10;
+  }
+  
+  /* Styles for each calendar tile */
+  .custom-calendar .react-calendar__tile {
+    padding: 10px; /* Add padding to each date tile */
+  }
+  
+  /* Styles for the active (selected) calendar tile */
+  .custom-calendar .react-calendar__tile--active {
+    background-color: red !important; /* Change background color of the selected date */
+    color: white !important; /* Change text color for better contrast */
+  }
+  
